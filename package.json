@@ -1,0 +1,19 @@
+{
+  "name": "write-time-tracker",
+  "version": "0.0.1",
+  "description": "Track time for wrike tasks easily",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harryjeffs/wrike-time-tracker.git"
+  },
+  "author": "Harry Jeffs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harryjeffs/wrike-time-tracker/issues"
+  },
+  "homepage": "https://github.com/Harryjeffs/wrike-time-tracker#readme"
+}
