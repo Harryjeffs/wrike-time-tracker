@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Hello World!</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
 </head>
 <body>
-
+<h1>Wrike Time Tracker!</h1>
+<button id="btnLogin" type="button">Please login</button>
+<script src="classes/wrike-auth/wrike-auth-2.js"></script>
 </body>
 </html>

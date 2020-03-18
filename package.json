@@ -2,7 +2,7 @@
   "name": "write-time-tracker",
   "version": "0.0.1",
   "description": "Track time for wrike tasks easily",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Harryjeffs/wrike-time-tracker/issues"
   },
-  "homepage": "https://github.com/Harryjeffs/wrike-time-tracker#readme"
+  "homepage": "https://github.com/Harryjeffs/wrike-time-tracker#readme",
+  "devDependencies": {
+    "electron": "^8.1.1"
+  },
+  "dependencies": {
+    "passport": "^0.4.1",
+    "passport-wrike-oauth2": "0.0.2"
+  }
 }
